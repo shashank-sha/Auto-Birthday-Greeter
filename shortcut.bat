@@ -1,0 +1,2 @@
+powershell "$s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\Start Menu\Programs\Startup\launch.vbs.lnk');$s.TargetPath='%cd%\launch.vbs';$s.WorkingDirectory='%cd%';$s.Save()"
+launch.vbs
